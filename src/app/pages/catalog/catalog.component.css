@@ -1,0 +1,11 @@
+.catalog{
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 25px;
+}
+tbody tr th:nth-child(1){
+    font-weight: bold;
+}
+tbody tr td:nth-child(2), tbody tr td:nth-child(5){
+    font-weight: bold;
+}

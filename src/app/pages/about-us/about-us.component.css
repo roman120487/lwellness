@@ -1,0 +1,20 @@
+.aboutUsContainer{
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.foto{
+    width: 35%;
+    padding-left: 45px;
+    padding-top: 25px;
+}
+.foto img{
+    border: 10px solid black;
+}
+.text{
+    width: 60%;
+    font-size: 25px;
+    padding: 25px;
+}

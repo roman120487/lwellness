@@ -1,0 +1,57 @@
+.header{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.headerTop p{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: green;
+    font-family: 'Inria Serif', serif;
+}
+.headerTop p:nth-child(3){
+    font-size: 15px;
+    color: red;
+}
+.headerTop{
+    height: 130px;
+    width: 80%;
+    /* line-height: 0.7; */
+    margin: 0px auto;
+    margin-top: 20px;
+}
+.sliderHeader{
+    width: 100%;
+    /* display: none; */
+}
+.picsum-img-wrapper img{
+    width: 100%;
+}
+.menu{
+    width: 80%;
+    margin: 0px auto;
+}
+.nav1{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 30px;
+}
+.active{
+    color: #53C71B;
+    border-bottom: 3px solid #53C71B;
+}
+.nav-item{
+    width: 24%;
+    text-align: center;
+}
+.logo{
+    position: absolute;
+    top: 0px;
+    left: 20%;
+    opacity: 0.4;
+}
+
+

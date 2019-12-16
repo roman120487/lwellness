@@ -1,0 +1,25 @@
+.contactsContainer {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    margin-top: 25px;
+}
+
+.googleMap {
+    border: 10px solid lightgrey;
+    width: 60%;
+    min-width: 500px;
+    height: 500px;
+}
+.contactsInfo{
+    min-width: 300px;
+    width: 38%;
+    padding: 35px;
+    font-size: 25px;
+}
+i{
+    float: left;
+}
+.phone p, .address p, .email p{
+    margin-left: 55px;
+}
